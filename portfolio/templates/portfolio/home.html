@@ -1,5 +1,8 @@
 <h1>This is my home</h1>
 
+<a href="{% url 'blog:all_blogs' %}">Blog</a>
+<br>
+
 {% load static %}
 <a href="{% static 'portfolio/Resume.pdf' %}">Resume</a>
 <img src="{% static 'portfolio/sayed.jpg' %}" alt="Profile Picture">
